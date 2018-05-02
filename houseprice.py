@@ -44,3 +44,12 @@ print(mean_absolute_error(y,predict_price))
 predict_price=model_LR.predict(X)
 print(mean_absolute_error(y,predict_price))
 # check mean absolute error of the linear regression model
+from sklearn.model_selection import train_test_split
+train_X,val_X,train_y,val_y=train_test_split(X,y,random_state=0)
+model=DecisionTreeRegressor()
+model.fit(train_X,train_y)
+val_prediction=model.predict(val_X)
+print(mean_absolute_error(val_y,val_prediction))
+# split sample into training set and validation set.
+# fit the model using the training set.
+# find the mean absolute error of the fitted model on the validation set
