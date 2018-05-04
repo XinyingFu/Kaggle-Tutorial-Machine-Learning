@@ -1,2 +1,3 @@
 # Kaggle-Tutorial-Machine-Learning
-Code for analyzing housing data
+houseprice.py is for machine learning level 1
+missing_value is for machine learning level 2: missing values
