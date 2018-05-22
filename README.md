@@ -6,3 +6,5 @@ missing_value.py is for machine learning level 2: missing values
 category.py is for machine learning level 2: categorical values
 
 XGBoost.py is for level 2: XGBoost
+
+partialdependence.py is for level 2: partial dependence plot. Still unsure of the interpretation...
