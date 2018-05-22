@@ -7,4 +7,6 @@ category.py is for machine learning level 2: categorical values
 
 XGBoost.py is for level 2: XGBoost
 
-partialdependence.py is for level 2: partial dependence plot. Still unsure of the interpretation...
+partialdependence.py is for level 2: partial dependence plot. Interpretation is the averaged effect.
+
+pipeline.py is for level 2: pipeline.
